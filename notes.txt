@@ -1,0 +1,20 @@
+Superuser details -
+Username - admin
+Email address - admin@littlelemon.com
+Password - littlelemon
+
+Managers have been given all the permissions
+
+The URL paths are as given in the project description.
+A token is required to access any endpoint.
+The Djoser paths, by default are 127.0.0.1:8000/auth/.....
+
+
+To create a new user and access the endpoints, follow these steps :-
+http://127.0.0.1:8000/auth/user : POST - username and password as form params in the body
+http://127.0.0.1:8000/auth/token/login : POST - with the username and password as form params in the body. Save the auth token.
+Use this auth token in Auth - Bearer Token with prefix - Token to access any of the api endpoints
+
+
+Some menu items, categories, users and orders have already been added.
+The passwords of all added users is - littlelemon
